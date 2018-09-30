@@ -6,7 +6,7 @@
 
 #include "takesArg.hh"
 
-PLUGIN(takesArg,Baz) {
+TYPE_PLUGIN(takesArg,Baz) {
     private:
 	std::string arg;
 
@@ -22,5 +22,5 @@ PLUGIN(takesArg,Baz) {
 };
 
 /* Magic? */
-PLUGIN_DEFS(takesArg,Baz,std::string)
-PLUGIN_DEFS(takesArg,Baz)
+DECLARE_PLUGIN(takesArg,Baz,std::string)
+DECLARE_PLUGIN(takesArg,Baz)

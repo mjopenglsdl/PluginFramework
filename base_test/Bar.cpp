@@ -6,7 +6,7 @@
 
 #include "CHasPrint.h"
 
-PLUGIN(CHasPrint,Bar) {
+TYPE_PLUGIN(CHasPrint,Bar) {
 public:
     ~Bar() {}
 
@@ -17,4 +17,4 @@ public:
     }
 };
 
-PLUGIN_DEFS(CHasPrint, Bar);
+DECLARE_PLUGIN(CHasPrint, Bar);

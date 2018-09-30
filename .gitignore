@@ -14,3 +14,4 @@ base_test/libBar.so
 base_test/libFoo.so
 cmake_install.cmake
 
+build

@@ -2,7 +2,7 @@
 //
 
 #include <string>
-#include "Plugin"
+#include "plugin.h"
 
 #include "takesArg.hh"
 

@@ -5,10 +5,9 @@
 #include <stdlib.h>
 #include <iostream>
 
-#include "Plugin"
+#include "plugin.h"
 #include "takesArg.hh"
 
-PLUGIN_BASE()
 
 using std::cout;
 using std::cerr;
@@ -41,6 +40,3 @@ int main(int argc, const char *const argv[])
     cout << p->print() << endl;
     return 0;
 }
-
-
-
